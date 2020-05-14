@@ -51,8 +51,7 @@ namespace WPF_Display_Image_In_DataGridView.ViewModel
 
         private void RunDataGrid()
         {
-            string imgDir = @"D:\Work\2019.11.29 찬우님 요청(크랙 분류) - 완료\Binary_CLA\OK";
-            // string imgDir = @"C:\Users\selee\Desktop\DongKuk_Test\Image";
+            string imgDir = @"";
 
             DirectoryInfo dir = new DirectoryInfo(imgDir);
 
